@@ -37,6 +37,19 @@ publishing {
 			artifactId = rootProject.name
 			version = project.version as String
 			from(components["java"])
+
+			pom {
+				inceptionYear.set("2020")
+				name.set(rootProject.name)
+				description.set("Retrofit annotation adapter for Spring framework.")
+				licenses {
+					license {
+						name.set("Apache License, Version 2.0")
+						url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
+						distribution.set("repo")
+					}
+				}
+			}
 		}
 	}
 	repositories {
