@@ -54,12 +54,8 @@ publishing {
 	}
 	repositories {
 		maven {
-			name = "GitHubPackages"
-			url = uri("https://maven.pkg.github.com/nosix/retrofit-spring-adapter")
-			credentials {
-				username = System.getenv("GITHUB_ACTOR")
-				password = System.getenv("GITHUB_TOKEN")
-			}
+			name = "ReleaseDir"
+			url = uri("file:${rootProject.projectDir}/release")
 		}
 	}
 }
