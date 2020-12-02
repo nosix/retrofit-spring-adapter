@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.funmake",
+    "module": "retrofit-spring-adapter",
+    "version": "0204.0209.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "l6r7e5c7l5fqjdrf2hcyrz3v7m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webflux",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "retrofit-spring-adapter-0204.0209.1.jar",
+          "url": "retrofit-spring-adapter-0204.0209.1.jar",
+          "size": 32767,
+          "sha512": "2d3f592375bac7c5edcdf37304acda968c1d4f49cf77e71634381327e4878a35ab0981e71ac323b71ce5de3e69ce404867d78ceb1d2a0dfc221dc2809aa5cb6d",
+          "sha256": "bbd7348a2c320f4029966462a3e707f10c0cfa1a898fc34caf5d16374bbb56e1",
+          "sha1": "541a1dea78bf3cfacc911c89623687b7c32b50aa",
+          "md5": "1f40b652c128419a8be3ee7676183429"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webflux",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "retrofit-spring-adapter-0204.0209.1.jar",
+          "url": "retrofit-spring-adapter-0204.0209.1.jar",
+          "size": 32767,
+          "sha512": "2d3f592375bac7c5edcdf37304acda968c1d4f49cf77e71634381327e4878a35ab0981e71ac323b71ce5de3e69ce404867d78ceb1d2a0dfc221dc2809aa5cb6d",
+          "sha256": "bbd7348a2c320f4029966462a3e707f10c0cfa1a898fc34caf5d16374bbb56e1",
+          "sha1": "541a1dea78bf3cfacc911c89623687b7c32b50aa",
+          "md5": "1f40b652c128419a8be3ee7676183429"
+        }
+      ]
+    }
+  ]
+}
